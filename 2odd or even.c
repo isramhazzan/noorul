@@ -1,5 +1,5 @@
 #include<stdio.h>
-3nclude<coni.h>
+#nclude<coni.h>
 void main()
 {
  int a;
@@ -11,7 +11,7 @@ void main()
  }
  else
  {
- printf("odd"0;
+ printf("odd");
  }
  getch();
 }
