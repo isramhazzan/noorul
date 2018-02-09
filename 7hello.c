@@ -2,6 +2,10 @@
 #include<conio.h>
 void main()
 {
- printf("\n hello");
- getch();
+ int N;
+ for(i=0;i<N;i++)
+ {
+  printf("\n hello");
+ }
+  getch();
 } 
