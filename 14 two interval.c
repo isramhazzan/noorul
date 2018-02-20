@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int up,low,i,k=0;
+int u,l,i,k=0;
 printf("enter the lower limit  ");
-scanf("%d",&low);
+scanf("%d",&l);
 printf("enter the upper limit  ");
-scanf("%d",&up);
-for(i=low;i<=up;i++)
+scanf("%d",&u);
+for(i=l;i<=u;i++)
 {
   if(i%2!=0)
     printf("\n %d",i);
