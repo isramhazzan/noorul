@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int h1,h2,temp,sum=0,x,a,i;
 clrscr();
@@ -20,6 +20,5 @@ if(sum==temp)
    printf("%d",temp);
 }
 }
-
-return 0;
+  getch();
 }
