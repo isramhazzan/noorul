@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int n1,n2,temp,sum=0,x,a,i;
+int h1,h2,temp,sum=0,x,a,i;
 clrscr();
-scanf("%d",&n1);
-scanf("\n%d",&n2);
-for(i=n1;i<=n2;i++)
+scanf("%d",&h1);
+scanf("\n%d",&h2);
+for(i=h1;i<=h2;i++)
 {
 temp=i;
 while(i!=0)
