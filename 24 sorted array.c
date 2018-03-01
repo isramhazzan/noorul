@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<comi.h>
+#include<conio.h>
 void main()
 { 
  int n,i,j,a[10],b;
