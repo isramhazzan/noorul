@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
-int n,min,hr;
-scanf("%d",&n);
-if(n<60)
+int main(void)
 {
-	printf("0 %d",n);
+int a,min,hr;
+scanf("%d",&a);
+if(a<60)
+{
+	printf("0 %d",a);
 }
-else if(n>=60)
+else if(a>=60)
 
 {
-min=n%60;
-hr=n/60;
+min=a%60;
+hr=a/60;
 printf("%d %d",hr,min);
 }
 	return 0;
